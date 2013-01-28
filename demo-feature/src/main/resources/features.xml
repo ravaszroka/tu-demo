@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+
+   <feature name="demo" version="0.0.1">
+      <bundle>mvn:ss.tuwien.demo/demo-api/0.0.1-SNAPSHOT</bundle>
+      <bundle>mvn:ss.tuwien.demo/demo-producer/0.0.1-SNAPSHOT</bundle>
+      <bundle>mvn:ss.tuwien.demo/demo-consumer/0.0.1-SNAPSHOT</bundle>
+   </feature>
+
+</features>
