@@ -9,16 +9,16 @@ import ss.tuwien.demo.producer.service.EchoServiceImpl;
 
 public class Activator implements BundleActivator {
 
-	private ServiceRegistration<EchoService> serviceRegistration;
+//	private ServiceRegistration<EchoService> serviceRegistration;
 	
 	@Override
 	public void start(BundleContext context) throws Exception {
-		serviceRegistration = context.registerService(EchoService.class, new EchoServiceImpl(), null);
+//		serviceRegistration = context.registerService(EchoService.class, new EchoServiceImpl(), null);
 	}
 
 	@Override
 	public void stop(BundleContext context) throws Exception {
-		serviceRegistration.unregister();
+//		serviceRegistration.unregister();
 	}
 
 }
