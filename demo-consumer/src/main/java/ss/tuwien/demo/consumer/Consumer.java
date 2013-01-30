@@ -5,7 +5,7 @@ import ss.tuwien.demo.api.EchoService;
 
 public class Consumer implements Runnable {
 
-	private boolean run;
+	private volatile boolean run;
 	private EchoService service;
 	
 	public void start(EchoService service) {
